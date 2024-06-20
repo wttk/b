@@ -1,6 +1,6 @@
 b(){
 if [ "$#" -ne 1 ] || [[ ! "$1" =~ ^[1-9]+$ ]];then
-  echo 'Specify one argument, a natural number.';
+  echo 'error: Specify one argument, a natural number.';
   return
 fi
 
